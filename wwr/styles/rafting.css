@@ -79,7 +79,7 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 180px;
     background-color: rgba(161, 219, 95, 0.5);
