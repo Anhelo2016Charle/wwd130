@@ -15,6 +15,17 @@
 header {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap:20px; 
+}
+nav ul{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+
 }
 
 body {
@@ -48,6 +59,30 @@ h3 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+}
+
+.history img{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.adventure {
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    margin: 0%;
+}
+.adventure img{
+    max-width: 600px;
+    height: auto;
+}
+.adventure h2{
+    position: absolute;
 }
 
 .socialmedia a {
